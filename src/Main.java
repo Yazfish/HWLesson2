@@ -36,7 +36,9 @@ public class Main {
         //67
         float catValue = 27.12f;
         long dogValue = 987_678_965_549L;
-        String flyValue = "2,787";
+        double flyValue = 2.786; // в задании указана запятая как разделитель!
+        // Дробные же в джаве пишутся с точкой. Я читаю запятую как текст или
+        // это ошибка в задании (мне тут непонятно)?
         short beeValue = 569;
         short ratValue = -159;
         int appleValue = 27897;
